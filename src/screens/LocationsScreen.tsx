@@ -18,7 +18,7 @@ import { locationsStyles as styles } from '../styles/locationsStyles';
 
 
 const LocationsScreen = () => {
-  const [location, setLocation] = useState<{ latitude: number; longitude: number } | null>(null);
+  const [, setLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [nearbyPlaces, setNearbyPlaces] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');

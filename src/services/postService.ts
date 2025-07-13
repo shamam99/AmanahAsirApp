@@ -8,9 +8,6 @@ export const getPosts = async () => {
   try {
     const username = Config.API_USERNAME;
     const password = Config.API_PASSWORD;
-
-    console.log('USERNAME:', username); // debug
-    console.log('PASSWORD:', password); // debug
     
     const token = Base64.encode(`${username}:${password}`); 
 

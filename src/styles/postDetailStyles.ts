@@ -32,6 +32,9 @@ export const postDetailStyles = StyleSheet.create({
     marginBottom: 16,
     backgroundColor: '#ddd',
   },
+  emptySpacer: {
+    width: 24,
+  },
   title: {
     fontSize: 20,
     fontWeight: 'bold',

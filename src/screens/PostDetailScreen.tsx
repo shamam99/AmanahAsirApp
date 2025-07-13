@@ -30,7 +30,7 @@ const PostDetailScreen = () => {
           <Ionicons name="chevron-back" size={24} color="#000" />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>الأخبار</Text>
-        <View style={{ width: 24 }} />
+        <View style={styles.emptySpacer} />
       </View>
 
       {/* Content */}
